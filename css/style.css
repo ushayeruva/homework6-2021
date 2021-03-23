@@ -36,6 +36,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     
 
 
@@ -48,7 +49,6 @@ header{
   border-radius: 7px;
   padding: 0 0 50px 0;
   display: flex;
-  flex-direction: column;
   flex-basis: 400px; 
   /*Your code here.*/
   /*Take a look at flex-basis*/
@@ -71,8 +71,9 @@ header{
 .gallery {
   min-height: 600px;
   display: flex;
-  flex-direction: column; 
   align-items: center;
+  flex-wrap: wrap;
+
 
 }
 
@@ -118,6 +119,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-between;
   }
 
   /*Requirement 10*/
@@ -135,7 +137,7 @@ header{
     padding: 0 0 50px 0;
     display: flex;
     flex-direction: column;
-    flex-basis: 400px; 
+    flex-basis: 200px; 
     /*Your code here.*/
     /*Take a look at flex-basis*/
   } 
@@ -152,6 +154,7 @@ header{
 
 
 
+}
 }
 
 
@@ -200,4 +203,3 @@ header{
   /*Requirement 18*/
  
 }
-
